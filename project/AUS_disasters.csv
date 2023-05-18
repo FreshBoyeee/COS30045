@@ -1,0 +1,131 @@
+ISO3,Country / Territory,Year,Event Name,Date_of_event,Disaster_Internal_Displacements,Hazard Category,Hazard Type,Hazard Sub Type
+AUS,Australia,2008,,2008-11-16T00:00:00Z,1000,Weather related,Storm,Storm
+AUS,Australia,2009,",",2009-01-01T00:00:00Z,7500,Weather related,Wildfire,Wildfire
+AUS,Australia,2010,2010-000049,2010-01-01T00:00:00Z,1000,Weather related,Flood,Flood
+AUS,Australia,2011,Tropical Cyclone 'Yasi',2011-01-01T00:00:00Z,10000,Weather related,Storm,Storm
+AUS,Australia,2012,,2012-01-01T00:00:00Z,3000,Weather related,Flood,Flood
+AUS,Australia,2012,,2012-01-01T00:00:00Z,13000,Weather related,Flood,Flood
+AUS,Australia,2013,Murray-River Tornado,2013-03-21T00:00:00Z,62,Weather related,Storm,Storm
+AUS,Australia,2013,Tasmania Bushfires,2013-01-05T00:00:00Z,3000,Weather related,Wildfire,Wildfire
+AUS,Australia,2013,Tropical Cyclone Oswald,2013-03-21T00:00:00Z,9000,Weather related,Storm,Storm
+AUS,Australia,2013,New-South Wales Bushfires January 2013,2013-01-01T00:00:00Z,130,Weather related,Wildfire,Wildfire
+AUS,Australia,2013,New-South Wales Bushfires October 2013,2013-10-01T00:00:00Z,540,Weather related,Wildfire,Wildfire
+AUS,Australia,2014,South Australia state fire,2014-01-01T00:00:00Z,31,Weather related,Wildfire,Wildfire
+AUS,Australia,2014,Perth Hills bushfire,2014-01-11T00:00:00Z,140,Weather related,Wildfire,Wildfire
+AUS,Australia,2014,Cyclone Ita,2014-04-10T00:00:00Z,1000,Weather related,Storm,Storm
+AUS,Australia,2015,Floods on the South coast of New South Wales,2015-08-25T00:00:00Z,300,Weather related,Flood,Flood
+AUS,Australia,2015,Esperance fires,2015-11-15T00:00:00Z,300,Weather related,Wildfire,Wildfire - Bush fire
+AUS,Australia,2015,Cyclone Marcia,2015-02-19T00:00:00Z,800,Weather related,Storm,"Storm, Storm surge"
+AUS,Australia,2015,Cyclone Nathan,2015-03-22T00:00:00Z,400,Weather related,Storm,"Storm, Tropical, Cyclone"
+AUS,Australia,2015,North-eastern Victoria landslide,2015-12-08T00:00:00Z,3,Weather related,Wet Mass Movement,Landslide
+AUS,Australia,2015,South-eastern Queensland floods,2015-05-01T00:00:00Z,260,Weather related,Flood,Flood
+AUS,Australia,2015,Great Ocean Road bushfire,2015-12-19T00:00:00Z,300,Weather related,Wildfire,Wildfire - Bush fire
+AUS,Australia,2015,Adelaide fire,2015-11-25T00:00:00Z,2500,Weather related,Wildfire,Wildfire
+AUS,Australia,2015,New South Wales floods,2015-04-21T00:00:00Z,520,Weather related,Flood,Riverine flood
+AUS,Australia,2015,Adelaide Hills bushfire,2015-01-02T00:00:00Z,70,Weather related,Wildfire,Wildfire - Bush fire
+AUS,Australia,2015,Cyclone Olwyn,2015-03-12T00:00:00Z,180,Weather related,Storm,"Storm, Tropical, Cyclone"
+AUS,Australia,2015,New South Wales thunderstorms,2015-12-15T00:00:00Z,78,Weather related,Storm,Thunderstorm
+AUS,Australia,2016,Western Australia floods,2016-12-25T00:00:00Z,100,Weather related,Flood,Flood
+AUS,Australia,2016,Huon River floods,2016-07-08T00:00:00Z,28,Weather related,Flood,
+AUS,Australia,2016,Waroona-Yarloop Fire,2016-01-07T00:00:00Z,700,Weather related,Wildfire,
+AUS,Australia,2016,Hunter Valley floods,2016-01-05T00:00:00Z,850,Weather related,Flood,
+AUS,Australia,2016,New South Wales floods (June),2016-06-05T00:00:00Z,500,Weather related,Flood,
+AUS,Australia,2016,Urandangi flood,2016-02-03T00:00:00Z,20,Weather related,Flood,
+AUS,Australia,2016,Tasmania floods,2016-06-06T00:00:00Z,130,Weather related,Flood,
+AUS,Australia,2016,New South Wales floods (September- 1st wave),2016-09-14T00:00:00Z,210,Weather related,Flood,
+AUS,Australia,2016,New South Wales floods (September- 2nd wave),2016-09-24T00:00:00Z,700,Weather related,Flood,
+AUS,Australia,2017,Australia :  New South Wales  fires  - 18/07/2017,2017-07-18T00:00:00Z,520,Weather related,Wildfire,Wildfire - Land fire
+AUS,Australia,2017,Australia : Tropical cyclone Alfred - 20/02/2017,2017-02-20T00:00:00Z,74,Weather related,Storm,"Storm, Tropical, Cyclone"
+AUS,Australia,2017,Australia :  Central Coast Queensland Severe Weather - Flood - Queensland - 16/10/2017,2017-10-16T00:00:00Z,31,Weather related,Flood,Flood
+AUS,Australia,2017,Austarlia : Queensland Wildfire - 19/01/2017,2017-01-19T00:00:00Z,130,Weather related,Wildfire,Wildfire
+AUS,Australia,2017,Australia : Strong winds - Wollongong- 19/08/2017,2017-08-19T00:00:00Z,80,Weather related,Storm,Storm
+AUS,Australia,2017,Australia : New South Wales Wildfires 12/02/2017,2017-02-12T00:00:00Z,94,Weather related,Wildfire,Wildfire
+AUS,Australia,2017,Australia : Tropical Cyclone Debbie - 28/03/2017,2017-03-28T00:00:00Z,30000,Weather related,Storm,"Storm, Tropical, Cyclone"
+AUS,Australia,2017,Austalia : Victorian Floods - Victoria - 01/12/2017,2017-12-01T00:00:00Z,10,Weather related,Flood,Flood
+AUS,Australia,2018,Australia: Strong Winds - Melbourne - 24/07/2018,2018-07-24T00:00:00Z,300,Weather related,Storm,Storm
+AUS,Australia,2018,Australia: Sydney bushfire - Sydney - 15/04/2018,2018-04-14T00:00:00Z,100,Weather related,Wildfire,Wildfire
+AUS,Australia,2018,Australia: Winter Wildfires - New South Wales - 15/08/2018,2018-08-14T00:00:00Z,100,Weather related,Wildfire,Wildfire
+AUS,Australia,2018,"Autralia: Wildfires - Gracemere, Rockhampton (Queensland) - 28/11/2018",2018-11-28T00:00:00Z,8000,Weather related,Wildfire,Wildfire
+AUS,Australia,2018,Australia: Bushfire - Tathra - 20/03/2018,2018-03-20T00:00:00Z,700,Weather related,Wildfire,Wildfire
+AUS,Australia,2018,Australia: Flash floods - Tasmania - 11/05/2018,2018-05-11T00:00:00Z,4,Weather related,Flood,Flood
+AUS,Australia,2018,Australia: Irvinebank  wildfire - North Queensland - 01/10/2018,2018-10-01T00:00:00Z,1,Weather related,Wildfire,Wildfire
+AUS,Australia,2018,Australia: Bushfires - North Nowra - 17/08/2018,2018-08-17T00:00:00Z,8,Weather related,Wildfire,Wildfire
+AUS,Australia,2018,Australia: Bushfire eastern Kununurra (Western Australia) - 24/09/2018,2018-09-24T00:00:00Z,10,Weather related,Wildfire,Wildfire
+AUS,Australia,2018,Australia: Bega Valley fire - 17/08/2018,2018-08-17T00:00:00Z,5,Weather related,Wildfire,Wildfire
+AUS,Australia,2018,"Australia: Queensland Bushfire - Baffle Creek, Deepwater Creek, Oyster Creek and Rules Beach - 26/11/2018",2018-11-26T00:00:00Z,800,Weather related,Wildfire,Wildfire
+AUS,Australia,2018,Australia: Tropical cyclone Owen - 11/12/2018,2018-12-02T00:00:00Z,80,Weather related,Storm,"Storm, Tropical, Cyclone"
+AUS,Australia,2018,Australia: Wildfire - Eungella (Brisbane) - 30/11/2018,2018-11-30T00:00:00Z,10,Weather related,Wildfire,Wildfire
+AUS,Australia,2018,Australia: Floods - Victoria - 14/12/2018,2018-11-28T00:00:00Z,10,Weather related,Flood,Flood
+AUS,Australia,2018,Australia: Bushfire - Cloudy Bay (Tasmania) - 24/12/2018,2018-12-24T00:00:00Z,50,Weather related,Wildfire,Wildfire - Land fire
+AUS,Australia,2018,Australia: Bushfires - Victoria - 19/03/2018,2018-03-18T00:00:00Z,210,Weather related,Wildfire,Wildfire
+AUS,Australia,2018,Australia: Floods - Queensland  - 10/03/2018,2018-03-10T00:00:00Z,520,Weather related,Flood,Flood
+AUS,Australia,2018,Australia: Cyclone Marcus - 16/03/2018,2018-03-16T00:00:00Z,130,Weather related,Storm,Storm
+AUS,Australia,2018,Australia: Cyclone Nora - Queensland - 24/03/2018,2018-03-26T00:00:00Z,40,Weather related,Storm,Storm
+AUS,Australia,2018,Australia: Bruces Creek Bushfire - Bega Valley  - 13/05/2018,2018-03-13T00:00:00Z,180,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Bushfire - Tingha (New South Wales) - 12/02/2019 ,2019-02-12T00:00:00Z,29,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Cyclone Veronica - Western Australia - 15/03/2019,2019-03-18T00:00:00Z,1100,Weather related,Storm,"Storm, Tropical, Hurricane"
+AUS,Australia,2019,Australia: Fires - Western Australia - 01/06/2019,2019-06-01T00:00:00Z,2,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Fires - Tasmania - 01/01/2019,2019-01-15T00:00:00Z,1400,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Bushfires - Victoria - March 2019 ,2019-03-01T00:00:00Z,1500,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Wildfire - Queensland - 01/11/2019,2019-11-01T00:00:00Z,840,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Bushfire - Tabulam (New South Wales) - 12/02/2019 ,2019-02-12T00:00:00Z,26,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,"Australia: Wildfire - Tasmania (North Hobart, Lachlan) - 28/10/2019",2019-10-28T00:00:00Z,2,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Fire - Queensland - 01/08/2019 ,2019-08-01T00:00:00Z,1000,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Bushfires - Western Australia - 01/12/2019,2019-12-01T00:00:00Z,610,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Fires - South Australia - 01/11/2019,2019-11-01T00:00:00Z,4200,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Flood - North Queensland - 30/01/2019,2019-01-30T00:00:00Z,1300,Weather related,Flood,Dam release flood
+AUS,Australia,2019,Australia: Wildfires - Victoria - 01/12/2019,2019-12-01T00:00:00Z,2100,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Bushfire - South West WA - 20/02/2019 ,2019-02-20T00:00:00Z,5,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Wildfire - New South Wales - 01/11/2019,2019-11-08T00:00:00Z,8400,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia: Fire - New South Wales - 01/08/2019 ,2019-08-01T00:00:00Z,540,Weather related,Wildfire,Wildfire
+AUS,Australia,2019,Australia; Papua New Guinea: Cyclone Trevor - 19/03/2019 ,2019-03-19T00:00:00Z,1800,Weather related,Storm,"Storm, Tropical, Cyclone"
+AUS,Australia,2020,Australia: Flash floods - NSW (Tumbarumba) - 19/10/2020,2020-10-19T00:00:00Z,1,Weather related,Flood,Flash flood
+AUS,Australia,2020,Australia: TC Blake - Western Australia - 07/01/2020,2020-01-07T00:00:00Z,200,Weather related,Storm,"Storm, Tropical, Cyclone"
+AUS,Australia,2020,Australia: Landslide - Victoria (Mornington Peninsula Shire/The Esplanade) - 29/09/2020,2020-09-29T00:00:00Z,3,Weather related,Wet Mass Movement,"Landslide, Avalanche"
+AUS,Australia,2020,Australia: Coastal flood - NSW - 12/12/2020,2020-12-12T00:00:00Z,200,Weather related,Flood,Coastal flood
+AUS,Australia,2020,Australia: Fires - Tasmania - 01/01/2020,2020-01-01T00:00:00Z,5,Weather related,Wildfire,Wildfire
+AUS,Australia,2020,Australia: Landslide - NSW (Sydney) - 23/10/2020,2020-10-23T00:00:00Z,25,Weather related,Wet Mass Movement,"Landslide, Avalanche"
+AUS,Australia,2020,"Australia: Fires - New South Wales, ACT - 01/01/2020",2020-01-01T00:00:00Z,17000,Weather related,Wildfire,Wildfire
+AUS,Australia,2020,Australia: Fires - Western Australia - 01/01/2020,2020-01-01T00:00:00Z,330,Weather related,Wildfire,Wildfire
+AUS,Australia,2020,Australia: Tornado - Victoria (Horsham) - 07/12/2020,2020-12-07T00:00:00Z,10,Weather related,Storm,Tornado
+AUS,Australia,2020,Australia: Fires - Western Australia (Perth) - 16/12/2020,2020-12-16T00:00:00Z,40,Weather related,Wildfire,Wildfire - Land fire
+AUS,Australia,2020,Australia: Fire - Queensland (Cooktown) - 03/10/2020,2020-10-03T00:00:00Z,5,Weather related,Wildfire,Wildfire
+AUS,Australia,2020,Australia: Bushfires - Victoria (Mount Cottrell) - 14/12/2020,2020-12-14T00:00:00Z,2,Weather related,Wildfire,Wildfire - Land fire
+AUS,Australia,2020,Australia: Fire - NSW (Sydney's North Head) - 17/10/2020,2020-10-17T00:00:00Z,60,Weather related,Wildfire,Wildfire
+AUS,Australia,2020,Australia: Fire - Queensland (Fraser Island) - 15/10/2020,2020-10-14T00:00:00Z,10,Weather related,Wildfire,Wildfire
+AUS,Australia,2020,Australia: Fire - New South Wales (Sydney) - 29/11/2020,2020-11-29T00:00:00Z,5,Weather related,Wildfire,Wildfire
+AUS,Australia,2020,Australia: Fires - Queensland - 01/01/2020,2020-01-01T00:00:00Z,130,Weather related,Wildfire,Wildfire
+AUS,Australia,2020,"Australia: Floods - Queensland (Southeast), NSW - 06/02/2020",2020-02-06T00:00:00Z,4000,Weather related,Flood,Flood
+AUS,Australia,2020,Australia: Coastal erosion - NSW (Sussex Inlet) - 28/07/2020,2020-07-27T00:00:00Z,52,Weather related,Wet Mass Movement,Wet mass movement
+AUS,Australia,2020,Australia: Hail storm - Queensland - 31/10/2020,2020-10-31T00:00:00Z,3,Weather related,Storm,Hailstorm
+AUS,Australia,2020,Australia: Fire - South Australia (Kangaroo Island) - 04/12/2020,2020-12-04T00:00:00Z,2,Weather related,Wildfire,Wildfire - Land fire
+AUS,Australia,2020,"Australia: Storm - Victoria, NSW, Queensland - 20/05/2020",2020-05-20T00:00:00Z,10,Weather related,Storm,Storm
+AUS,Australia,2020,Australia: Fires - Victoria - 01/01/2020,2020-01-01T00:00:00Z,26000,Weather related,Wildfire,Wildfire
+AUS,Australia,2020,Australia: Fires - South Australia - 01/01/2020,2020-01-01T00:00:00Z,3800,Weather related,Wildfire,Wildfire
+AUS,Australia,2021,Australia: Floods - New South Wales - 17/03/2021,2021-03-17T00:00:00Z,40000,Weather related,Flood,Flood
+AUS,Australia,2021,Australia: Floods - Western Australia (Carnarvon) - 05/02/2021,2021-02-05T00:00:00Z,24,Weather related,Flood,Flood
+AUS,Australia,2021,Australia: Earthquake - Victoria (Melbourne) - 22/09/2021,2021-09-22T00:00:00Z,2,Geophysical,Earthquake,Earthquake
+AUS,Australia,2021,Australia: Bushfire - Western Australia (Perth) - 02/01/2021,2021-01-02T00:00:00Z,300,Weather related,Wildfire,Wildfire - Land fire
+AUS,Australia,2021,"Australia, Indonesia, Timor-Leste: Tropical Cyclone SEROJA - Western Australia (AUS), East Nusa Tenggara (IDN) and Dili (TLS) - 29/03/2021",2021-03-29T00:00:00Z,340,Weather related,Storm,"Storm, Tropical, Cyclone"
+AUS,Australia,2021,Australia: Floods - Victoria (Gippsland) - 09/06/2021,2021-06-09T00:00:00Z,520,Weather related,Flood,Flood
+AUS,Australia,2021,Australia: Land Fires - Victoria (Taylors Lakes) - 11/01/2021 ,2021-01-11T00:00:00Z,5,Weather related,Wildfire,Wildfire - Land fire
+AUS,Australia,2021,Australia: Floods - Northern Territories (Jilkminggan) - 25/02/2021,2021-02-25T00:00:00Z,210,Weather related,Flood,Flood
+AUS,Australia,2021,"Australia: Flood - New South Wales, Queensland - 10/11/2021",2021-11-09T00:00:00Z,200,Weather related,Flood,Flood
+AUS,Australia,2021,"Australia: Land Fire - South Australia (Blackford, Lucindale) - 11/01/2021",2021-01-11T00:00:00Z,100,Weather related,Wildfire,Wildfire - Land fire
+AUS,Australia,2021,"Australia: Storm - Victoria, South Australia - 29/10/2021",2021-10-29T00:00:00Z,18,Weather related,Storm,Storm
+AUS,Australia,2021,"Australia: Flood - New South Wales, Queensland - 10/11/2021",2021-11-09T00:00:00Z,4,Weather related,Flood,Flood
+AUS,Australia,2021,Australia: Bushfire - Western Australia (Perth) - 02/01/2021,2021-01-02T00:00:00Z,200,Weather related,Wildfire,Wildfire - Land fire
+AUS,Australia,2021,"Australia: Tornado - New South Wales (Meadow Flat, Lithgow) - 29/09/2021",2021-09-29T00:00:00Z,3,Weather related,Storm,Tornado
+AUS,Australia,2021,"Australia: Flood - New South Wales, Queensland - 10/11/2021",2021-11-09T00:00:00Z,50,Weather related,Flood,Flood
+AUS,Australia,2021,Australia: Storm - New South Wales - 30/09/2021,2021-09-30T00:00:00Z,5000,Weather related,Storm,Tornado
+AUS,Australia,2021,Australia: Fire - Western Australia (Margaret River) - 08/12/2021,2021-12-08T00:00:00Z,45,Weather related,Wildfire,Wildfire - Forest
+AUS,Australia,2021,Australia: Cyclone Kimi - Queensland - 18/01/2021,2021-01-18T00:00:00Z,200,Weather related,Storm,"Storm, Tropical"
+AUS,Australia,2021,Australia: Storm - Sydney (Lower North Shore) - 19/06/2021,2021-06-19T00:00:00Z,6,Weather related,Storm,Storm
+AUS,Australia,2021,Australia: Fire - Western Australia (Wooroloo) - 26/12/2021,2021-12-26T00:00:00Z,10,Weather related,Wildfire,Wildfire
+AUS,Australia,2021,"Australia: Flood - New South Wales, Queensland - 10/11/2021",2021-11-09T00:00:00Z,800,Weather related,Flood,Flood
+AUS,Australia,2021,"Australia: Flood - New South Wales, Queensland - 10/11/2021",2021-11-09T00:00:00Z,50,Weather related,Flood,Flood
+AUS,Australia,2021,"Australia: Adelaide Hills Fire - South Australia (Cherry Gardens, Echunga) - 24/01/2021",2021-01-24T00:00:00Z,20,Weather related,Wildfire,Wildfire
+AUS,Australia,2021,"Australia: Fire - Western Australia (Wooroloo, Perth) - 01/02/2021",2021-02-01T00:00:00Z,110,Weather related,Wildfire,Wildfire
+AUS,Australia,2021,Australia: Storms - Western Australia - 06/07/2021,2021-07-06T00:00:00Z,3,Weather related,Storm,Storm
+AUS,Australia,2021,"Australia: Fire - Western Australia (Wooroloo, Perth) - 01/02/2021",2021-02-01T00:00:00Z,440,Weather related,Wildfire,Wildfire
+AUS,Australia,2021,Australia: Floods - Victoria (Gippsland) - 09/06/2021,2021-06-09T00:00:00Z,280,Weather related,Flood,Flood

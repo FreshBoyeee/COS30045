@@ -1,0 +1,4 @@
+Conflict Stock Displacement	Conflict Stock Displacement (Raw)	
+Conflict Internal Displacements	Conflict Internal Displacements (Raw)	
+Disaster Internal Displacements	Disaster Internal Displacements (Raw)	
+Disaster Stock Displacement	Disaster Stock Displacement (Raw)

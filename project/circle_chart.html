@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project circle chart</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+        .line {
+            fill: none;
+            stroke: red;
+            stroke-width: 0.5;
+        }
+        .MyCircle {
+            fill: steelblue;
+        }
+    </style>
+</head>Disaster Internal Displacements
+</head>
+<body>
+    <h1>Project Circle Chart</h1>
+    <script>
+    // 1. selector
+    var body = d3.select("body");
+    // 2. data binding
+    var dataset = [ 5, 10, 20, 45, 6, 25 ];
+    d3.csv
+    // 3. circle chart of each disaster
+    var width = 400;
+    var height = 400;
+
+    var svg = body.append("svg")
+                .attr("width", 400)
+                .attr("height", 400)
+    var pie = d3.pie()
+
+    var piedata = pie(dataset);
+
+    var innerRadius = 0;
+    var outerRadius = 180;
+    var arc = d3.svg.arc()
+                .innerRadius(innerRadius)
+                .outerRadius(outerRadius);
+    
+    var arcs = svg.selectAll(".arcGroups")
+                .data(piedata)
+                .enter()
+                .append("g")
+                .attr("class", "arcGroups")
+                .attr("transform", "translate(200, 200)");
+    
+    arcs.append("path")
+        .attr("d", function(d){
+            return arc(d);
+        });
+    arc.append("text")
+        .attr("class","MyText")
+        .attr("transform", function(d)) {
+            var center = arc(d);
+        }
+    console.log(piedata);
+    </script>
+</body>
+</html>  

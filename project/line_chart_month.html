@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Line chart of each year</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+        .line {
+            fill: none;
+            stroke: red;
+            stroke-width: 0.5;
+        }
+        .area {
+            fill: steelblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Number of Disaster Internal Displacements in Australia per year</h1>
+    <script>
+        var w = 800;
+        var h = 300;
+        var padding = 50;
+        var padding1 = 50;
+    // data bind Date_of_event
+    d3.csv("AUS_disasters.csv", function(d) {
+        return {
+            month: +d.month-1,
+            number: +d.Disaster_Internal_Displacements
+        };
+    }).then(function(data) {  
+        var dataset = data; //assign
+        lineChart(dataset);
+        console.table(dataset, ["month", "number"]); 
+    });  
+
+    function lineChart(dataset) {
+    // Step 2: Set up the Scales
+    var xScale = d3.scaleTime()
+                .domain([
+                    d3.min(dataset, function(d) { return d.month; }),
+                    d3.max(dataset, function(d) { return d.month; })
+                ])
+                .range([padding, w -padding]);
+    var yScale = d3.scaleLinear()
+                .domain([0, d3.max(dataset, function(d) { return d.number; })])
+                .range([h- padding, padding]);
+     // Step 3: Set up the line
+     var line = d3.line()
+            .x(function(d) { return xScale(d.month); })
+            .y(function(d) { return yScale(d.number); });
+    // Step 7: Turn your line chart into an area chart 
+    var area = d3.area()
+            .x(function(d) { return xScale(d.month); })
+            //base tline for area shape    
+            .y0(function() { return yScale.range()[0]; })
+            .y1(function(d) { return yScale(d.number); });
+    
+    // Step 4: Set up the SVG and Path
+    // var svg = d3.select("#chart")
+    var svg = d3.select("body")
+                .append("svg")
+                .attr("width", w)
+                .attr("height", h);
+      
+    svg.append("path") //The entire dataset array is bound to the new path we just created
+        .datum(dataset) //bind the number to the single element
+        .attr("class", "line") //css
+        .attr("d", line);
+    svg.append("path")
+        .datum(dataset)
+        .attr("class", "area") //css
+        .attr("d", area)
+// ////////////////////////////////////  
+//  add x and y axises
+var xAxis = d3.axisBottom()
+            //   .ticks(5)  /////Step 4: Controlling the Ticks 
+              .scale(xScale);
+            svg.append("g")
+                .attr("class", "axis") //Assign "axis" class
+                .attr("transform", "translate(0," + (h- padding1) + ")")
+            // .attr("transform", "translate(" +  padding + ")")
+                .call(xAxis);
+//////  Add the Y-axis
+var yAxis = d3.axisLeft()
+            .ticks(5)
+            .tickPadding(5)
+            .scale(yScale)      
+        // .tickSizeInner(-w)
+        // .tickSizeOuter(0)
+        // .tickFormat(d3.format("d"));
+        svg.append("g")
+            .attr("class", "axis") //Assign "axis" class to CSS
+            .attr("transform", "translate(" + padding + ")")
+// .attr("transform", "translate(0," +  padding + ")")
+             .call(yAxis);
+
+// Step 5: Add some annotations  
+    svg.append("line")
+        .attr("class", "line halfMilMark")
+    // start of line
+        .attr("x1", padding)
+        .attr("y1", yScale(500000))
+    // end of line 
+        // .attr("x2", w)
+        .attr("x2", w-padding)
+        .attr("y2", yScale(500000));
+    
+    svg.append("text")
+        .attr("class", "halMilLabel")
+        .attr("x", padding + 10)
+        .attr("y", yScale(500000) - 7)
+        .text("Half a million unemployed");
+    // don't put it in the back
+    // svg.append("path")
+        // .datum(dataset)
+        // .attr("class", "area") //css
+        // .attr("d", area)
+    }
+    </script>
+</body>
+</html>

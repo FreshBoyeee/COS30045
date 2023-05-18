@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> stacked bar chart </title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+        .line {
+            fill: none;
+            stroke: red;
+            stroke-width: 0.5;
+        }
+        .area {
+            fill: steelblue;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // Step 1: Set up the data
+        var dataset = [ 
+            { flood: 5, wirefire: 10, storm: 22 }, 
+            { flood: 4, wirefire: 12, storm: 28 }, 
+            { flood: 2, wirefire: 19, storm: 32 }, 
+            { flood: 7, wirefire: 23, storm: 35 }, 
+            { flood: 23, wirefire: 17, storm: 43 } 
+            ]; 
+        var w = 300;
+        var h = 300;
+        var color = d3.scaleOrdinal(d3.schemeCategory10);
+        // Step 2: Set up the stack
+        var stack = d3.stack()
+                    .keys(["flood","wirefire","storm"]);
+        
+        var series = stack(dataset);
+        
+        // Step 3: Set up the SVG and set up the arcs
+        var svg = d3.select("body")
+                    .append("svg")
+                    .attr("width", w)
+                    .attr("height", h);
+    
+        var groups = svg.selectAll("g")
+                        .data(series)
+                        .enter()
+                        .append("g")
+                        .style("fill", function(d,i){
+                            return color(i);
+                        });
+    function lineChart(dataset) {
+    // Step 2: Set up the Scales
+    var xScale = d3.scaleTime()
+                .domain([
+                    d3.min(dataset, function(d) { return d.month; }),
+                    d3.max(dataset, function(d) { return d.month; })
+                ])
+                .range([padding, w -padding]);
+    var yScale = d3.scaleLinear()
+                .domain([0, d3.max(dataset, function(d) { return d.number; })])
+                .range([h- padding, padding]);
+     // Step 3: Set up the line
+     var line = d3.line()
+            .x(function(d) { return xScale(d.month); })
+            .y(function(d) { return yScale(d.number); });
+    // Step 7: Turn your line chart into an area chart 
+    var area = d3.area()
+            .x(function(d) { return xScale(d.month); })
+            //base tline for area shape    
+            .y0(function() { return yScale.range()[0]; })
+            .y1(function(d) { return yScale(d.number); });
+    
+    // Step 4: Set up the SVG and Path
+    // var svg = d3.select("#chart")
+    var svg = d3.select("body")
+                .append("svg")
+                .attr("width", w)
+                .attr("height", h);
+      
+    svg.append("path") //The entire dataset array is bound to the new path we just created
+        .datum(dataset) //bind the number to the single element
+        .attr("class", "line") //css
+        .attr("d", line);
+    svg.append("path")
+        .datum(dataset)
+        .attr("class", "area") //css
+        .attr("d", area)
+        ///////define xScale and yScale first
+        var xScale = d3.scaleBand()
+            .domain(d3.range(dataset.length))
+            .range([0, w])
+            .paddingInner(0.05);
+            
+        var yScale = d3.scaleLinear()
+                        .domain([0, d3.max(dataset, function(d) {
+                            return d.apples +d.oranges +d.grapes;
+                            })
+                        ])
+                        .range([h, 0]);
+            // Step 4: Draw the rectangles 
+        var rects = groups.selectAll("rect")
+                        .data(function(d) { return d;})
+                        .enter()
+                        .append("rect")
+                        .attr("x", function(d, i) {
+                            return xScale(i);
+                        })
+                        .attr("y", function(d,i) {
+                            return yScale(d[1]);
+                        })
+                        .attr("height", function(d) {
+                            return yScale(d[0]) - yScale(d[1]);
+                        })
+                        .attr("width", xScale.bandwidth()); 
+        </script>
+</body>
+</html>
