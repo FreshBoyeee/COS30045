@@ -63,9 +63,19 @@ function init(){
 
         arcs.on("mouseover", function(event, d){
 
+            // d3.select(this)
+            //     .transition()//transition added
+            //     .duration(200)
+            //     .style("fill","red")//this needs to be "style" not "attr"
+            //     .style("font-weight", "bold");
+
+                //otherwise not working...
             var xPosition = parseFloat(d3.select(this).attr("x"));//str -> float num
             var yPosition = parseFloat(d3.select(this).attr("y"));
 
+            // const [x, y] = d3.pointer(event); 
+
+            console.log(d.data.Displacements);
             svg.append("text")              
                 .attr("id", "tooltip")
                 .attr("x", xPosition)

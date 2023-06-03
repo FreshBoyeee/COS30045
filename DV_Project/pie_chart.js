@@ -13,6 +13,8 @@ function init(){
         });
 
         pieChart(data, selectedYear, svg);
+
+        CreatLegend();
     })
     
     function pieChart(data, selectedYear, svg){
@@ -87,13 +89,36 @@ function init(){
     function CreatSVG(){
         var width = 500;
         var height = 500;
-        var svg = d3.select("body")
+        var svg = d3.select("#pie_chart")
                     .append("svg")
                     .attr("width", width)
                     .attr("height", height)
                     .append("g")
                     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
         return svg;
+    }
+
+    function CreatLegend(){
+        const colors = {
+            "Flood": "#17D7FE",
+            "Wildfire": "#F4690E",
+            "Storm": "#B117FE"
+        };
+        
+        // Create the color legend
+        const legend = d3.select("#legend");
+        
+        // Append the legend items
+        Object.entries(colors).forEach(([hazard, color]) => {
+            const legendItem = legend.append("div")
+                .attr("class", "legend-item");
+        
+            legendItem.append("span")
+                .style("background-color", color);
+        
+            legendItem.append("span")
+                .text(hazard);
+        });
     }
 }
 

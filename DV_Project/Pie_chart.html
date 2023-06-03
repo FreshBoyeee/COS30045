@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description"	content="Data Visualisation assignment"/>
+	<meta name="keywords"		  content="HTML, CSS, D3"/>
+	<meta name="author"			  content="Ang Fu, Mingyuan Wang"/>
+    
+	<title>DV project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+</head>
+<body>
+    <h1>Internal Displacements In Australia Due to Natural Disaster</h1>
+    <h3>Explore the percentage distribution of displacements by different hazard types in a specific year! <br>
+        Utilize the year selector to choose the year you're interested in. </h3>
+
+    <div class = "yearDropdown">
+        <select id="yearDropdown" name="yearDropdown">
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+        </select>
+    </div>
+      
+
+    <div id="pie_chart"></div>
+
+    <div id="legend"></div>
+
+    <a id = "home" href="Home.html">Back to Home</a>
+
+
+
+
+    <footer>COS30045 Data Visualisation<br>
+        Auther: Ang Fu (103001255)<br>
+                & <br>
+                Mingyuan Wang (104195667)<br>
+        Semester 1 2023
+    </footer>
+</body>
+
+<script src = "pie_chart.js"></script>
+
+</html>
