@@ -96,20 +96,20 @@
             .y(function (d) {
                 return yScale(d.number);
             }).curve(d3.curveCatmullRom.alpha(0.5))
-        // Step 7: Turn your line chart into an area chart
-        // var area = d3.area()
-        //     .x(function (d) {
-        //         return xScale(d.year);
-        //     })
-        //     //base tline for area shape
-        //     .y0(function () {
-        //         return h - padding1;
-        //     })
-        //     .y1(function (d) {
-        //         return yScale(d.number);
-        //     })
-        //     .curve(d3.curveCatmullRom);
-        // svg.append('path').attr('d', area(dataset)).attr('stroke', 'black').attr('fill', 'blue');
+        //Step 7: Turn your line chart into an area chart
+        var area = d3.area()
+            .x(function (d) {
+                return xScale(d.year);
+            })
+            //base tline for area shape
+            .y0(function () {
+                return h - padding1;
+            })
+            .y1(function (d) {
+                return yScale(d.number);
+            })
+            .curve(d3.curveCatmullRom);
+        svg.append('path').attr('d', area(dataset)).attr('stroke', 'black').attr('fill', 'blue');
 
 
         // // Step 4: Set up the SVG and Path
